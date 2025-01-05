@@ -1,7 +1,5 @@
 #import "@preview/ilm:1.4.0": *
-#import "@preview/drafting:0.2.1": set-page-properties
 
-#set-page-properties(margin-left: 2cm)
 
 #set text(lang: "ru")
 #set math.equation(numbering: "1")
@@ -28,6 +26,8 @@
 
 
 // Далее буду включать все файлы из папки src
+#include "src/000_иррац_числа.typ"
+
 #include "src/000_вещ_числа.typ"
 
 
