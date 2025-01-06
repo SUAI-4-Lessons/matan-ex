@@ -1,6 +1,5 @@
 #import "@preview/ilm:1.4.0": *
 
-
 #set text(lang: "ru")
 #set math.equation(numbering: "1")
 
@@ -20,10 +19,12 @@
   preface: [
     #set text(size: 20pt)
     #v(1fr)
-    #align(center)[Если бы Пушкина вела лекции нормально \ этого бы документа возможно бы не было.]
-    #v(1fr)]
+    #align(
+      center,
+    )[Если бы Пушкина вела лекции нормально \ этого бы документа возможно бы не было.]
+    #v(1fr)
+  ],
 )
-
 
 // Далее буду включать все файлы из папки src
 #include "src/000_иррац_числа.typ"
@@ -32,4 +33,6 @@
 
 #include "src/001_функции.typ"
 
+#include "src/002_классы_функций.typ"
 
+#include "src/003_обратная_функция.typ"
