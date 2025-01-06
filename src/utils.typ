@@ -1,8 +1,5 @@
 #let ep(body) = {
-  pad(
-  left: 65%,
-)[
-  #body
-]
-
+  pad(left: 65%)[
+    #body
+  ]
 }

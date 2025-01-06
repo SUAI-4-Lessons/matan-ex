@@ -30,6 +30,6 @@
 
 #include "src/000_вещ_числа.typ"
 
-#include "src/001_функ_1перем.typ"
+#include "src/001_функции.typ"
 
 
