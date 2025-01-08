@@ -40,3 +40,5 @@
 #include "src/004_теория_пределов.typ"
 
 #include "src/005_предел_функции.typ"
+
+#include "src/006_свойства_пределов.typ"
