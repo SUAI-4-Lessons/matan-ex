@@ -38,3 +38,5 @@
 #include "src/003_обратная_функция.typ"
 
 #include "src/004_теория_пределов.typ"
+
+#include "src/005_предел_функции.typ"
