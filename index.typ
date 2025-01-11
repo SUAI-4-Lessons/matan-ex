@@ -47,3 +47,5 @@
 #include "./src/007_монотонная_функция.typ"
 
 #include "src/008_число_e.typ"
+
+#include "./src/009_принцип_сходимости.typ"
