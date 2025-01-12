@@ -15,15 +15,7 @@
   figure-index: (enabled: true),
   table-index: (enabled: true),
   listing-index: (enabled: true),
-  table-of-contents: outline(depth: 2),
-  preface: [
-    #set text(size: 20pt)
-    #v(1fr)
-    #align(
-      center,
-    )[Если бы Пушкина вела лекции нормально \ этого бы документа возможно бы не было.]
-    #v(1fr)
-  ],
+  table-of-contents: outline(depth: 2)
 )
 
 // Далее буду включать все файлы из папки src
