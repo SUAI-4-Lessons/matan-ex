@@ -12,9 +12,6 @@
   author: "Панков Василий <pank-su>",
   date: datetime.today(),
   abstract: [Материалы для подготовки к экзамену],
-  figure-index: (enabled: true),
-  table-index: (enabled: true),
-  listing-index: (enabled: true),
   table-of-contents: outline(depth: 2)
 )
 
