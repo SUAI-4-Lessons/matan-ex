@@ -57,3 +57,5 @@
 #include "src/015_теоремы_о_диф.typ"
 
 #include "src/016_исл_фун.typ"
+
+#include "src/017_правило_лопиталя.typ"
