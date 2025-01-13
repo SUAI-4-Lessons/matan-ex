@@ -18,3 +18,28 @@ $
 
 / Определение: Совокупность всех первообразных для $f(x)$ определенных на интервале $(a, b)$ называется
   неопределённым интегралом от $f(x)$: $ integral f(x) d x = F(x) + C $
+
+== Свойства неопределённых интегралов
+
+#{
+  show math.equation: set text(size: 14pt)
+
+  [
+    $ (integral f(x) d x)' = f(x) $
+    $ d(integral f(x) d x) = f(x) d x $
+    Интеграл от дифференциала функции будет равен самой функции плюс константа: $ integral d F(x) = F(x) + C $
+
+    Постоянный множитель можно вынести из под интегрального выражения: $ integral a f(x) d x = a integral f(x) d x $
+
+    $ integral (f(x) + g(x)) d x = integral f(x) d x + integral g (x) d x $
+
+    Интеграл сложной функции $f(u(x))$:
+
+    $
+      integral f(u) d u = integral f(u(x)) dot u'(x) dot d x = F(u) + C
+
+    $
+  ]
+}
+
+
