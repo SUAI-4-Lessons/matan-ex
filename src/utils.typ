@@ -3,3 +3,7 @@
     #body
   ]
 }
+
+#let mono(body)={
+  text(font: "Fira Mono", body)
+}

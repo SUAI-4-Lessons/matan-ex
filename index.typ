@@ -59,3 +59,5 @@
 #include "src/016_исл_фун.typ"
 
 #include "src/017_правило_лопиталя.typ"
+
+#include "src/018_разрывные_функции.typ"
